@@ -16,7 +16,7 @@ a{
 }
 
 .wrapper{
-    width: 56%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -58,3 +58,41 @@ nav a:hover{
     margin-top: 31px;
     padding-bottom: 300px;
 }
+.about_out_story{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 70px 0 105px 0;
+
+}
+.left_column{
+    width: 15%;
+    margin-right: 6.5%;
+}
+.right_column{
+    width: 44%;
+}
+.about_watch{
+    width: 100%;
+    background: url("img/bg_watch.png") no-repeat;
+    text-align: center;
+}
+.about_watch img{
+    margin: 200px;
+
+}
+.main_expertise{
+    text-align: center;
+
+}
+.main_expertise h2{
+    margin-top: 70px;
+}
+.main_expertise p{
+    margin: 20px 0;
+}
+.main_expertise .line{
+    background: #c6c4c9;
+}
+
+
